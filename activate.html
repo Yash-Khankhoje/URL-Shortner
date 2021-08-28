@@ -1,0 +1,44 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Password Reset</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        
+        <div class="container">
+            <div class="row">
+            
+                <div class="col-md-6 m-auto" style="background: rgb(12 14 14 / 90%);">
+                    
+                        <div class="login-box">
+                            
+                            <div class="login-space" id="activationDiv">
+                                <form onsubmit="return sendPasswordResetLink()">
+                                    <div class="form-group m-5 p-5">
+                                        <div> 
+                                            <strong><h1 class="display-group-1" style="color: blue;">Activation Status</h1></strong>
+                                        </div>
+    
+                                        <div id="activationStatusDiv"> 
+                                            <strong><h3 class="d-flex justify-content-center">Verifying</h3></strong>
+                                        </div>
+                                        
+                                    </div>
+                                </form>
+                                
+                            </div>
+                        </div>
+                    
+                </div>
+                
+            </div>
+        </div>
+
+        <script src="activate.js"></script>
+    </body>
+</html>
+    
+    

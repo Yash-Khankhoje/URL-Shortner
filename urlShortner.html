@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <title>Login</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+      
+  </style>
+</head>
+
+<body>
+    
+      <div class="container">
+        <div class="row">
+            <div class="col-md-6 m-auto " style="background: rgb(12 14 14 / 90%);">
+                
+                    <div class="login-box p-5">
+                        
+                            <div class="login-space">
+                                <div class="form pt-5" style="text-align: center;">
+                                    <form id="shortenURLFormId">
+                                      <h1 style="margin-bottom: 30px;color:  #165aecea;"><b>Shorten URL</b></h1>
+    
+                                      <div class="input-group m-3">
+                                        <input class="form-control" id = "longUrlText" placeholder="Long URL" required>
+                                        <span class="input-group-btn">
+                                            <button type="button" class="btn btn-primary" onclick="shortenUrl()">Shorten URL</button>
+                                        </span>
+                                      </div>
+                                      <div class="input-group m-3" id="shortURLId">
+                                          <input class="form-control" id = "shortUrlText" placeholder="Shortend URL">
+                                          <span class="input-group-btn">
+                                              <button onclick="onCopy()" class="btn btn-primary">Copy</button>
+                                          </span>
+                                      </div>
+                                      <button type="button" class="btn btn-primary btn-lg m-4" onclick="checkDashboard()">Check Dashboard</button>
+                                  </form>
+                                  </div>
+                            </div>
+                    </div>
+                
+            </div>
+        </div>
+      </div>
+    <script src="urlShortener.js"></script>
+</body>
+
+</html>

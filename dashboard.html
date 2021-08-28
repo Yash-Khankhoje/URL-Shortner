@@ -1,0 +1,59 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Password Reset</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        
+        <div class="container">
+            <div class="row">
+            
+                <div class="col-md-6 m-auto">
+                    <div class="login-box">
+                            
+                            <div class=" mt-5 ">
+                                <div class="card" >
+                                    <div class="card-body">
+                                        <h1 class="d-flex justify-content-center" style="margin-bottom: 30px;color:  #165aecea;"><b>Dashboard</b></h1>
+                                      <table style="text-align: center;" class="table">
+                                          <thead>
+                                              <tr>
+                                                  <th width="50%">
+                                                    In a day
+                                                  </th>
+                                                  <th>
+                                                    In 30 days
+                                                  </th>
+                                              </tr>
+                                          </thead>
+                                          <tbody>
+                                              <tr>
+                                                  <td id="pastOnedayId">
+                                                    0
+                                                  </td>
+                                                  <td id="pastThirtydayId">
+                                                    0
+                                                  </td>
+                                              </tr>
+                                          </tbody>
+                                      </table>
+                                    </div>
+                                    <button type="button" class="btn btn-primary btn-lg m-4" onclick="startShortening()">Start Shortening</button>
+                                  </div>
+                                
+                            </div>
+                        </div>
+                    
+                </div>
+                
+            </div>
+        </div>
+
+        <script src="dashboard.js"></script>
+    </body>
+</html>
+    
+    
